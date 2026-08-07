@@ -1,0 +1,272 @@
+[
+  {
+    "title": "Total Lunar Eclipse",
+    "type": "Lunar Eclipse",
+    "date": "2026-03-11",
+    "time": "11:34",
+    "duration": "58 minutes of totality",
+    "status": "Past",
+    "countries": ["China", "Japan", "South Korea", "Australia", "New Zealand", "United States", "Canada", "Brazil"],
+    "description": "Total lunar eclipse visible from eastern Asia, Australia, Pacific, and the Americas. Moon takes on a reddish hue during totality."
+  },
+  {
+    "title": "Wolf Moon Supermoon",
+    "type": "Supermoon",
+    "date": "2026-03-03",
+    "time": "05:03",
+    "duration": "Appears full for several nights",
+    "status": "Past",
+    "countries": ["Worldwide"],
+    "description": "First supermoon of 2026. Moon appears 14% larger and 30% brighter than average full moon when at perigee, closest approach to Earth."
+  },
+  {
+    "title": "Blue Moon (Monthly)",
+    "type": "Blue Moon",
+    "date": "2026-05-31",
+    "time": "08:45",
+    "duration": "Full moon phase",
+    "status": "Past",
+    "countries": ["Worldwide"],
+    "description": "Second full moon within the same calendar month. The smaller micromoon of 2026 but still viewable with naked eye during nightfall."
+  },
+  {
+    "title": "Annular Solar Eclipse",
+    "type": "Solar Eclipse",
+    "date": "2026-02-17",
+    "time": "12:13",
+    "duration": "2 minutes 20 seconds of annularity",
+    "status": "Past",
+    "countries": ["Antarctica", "Argentina", "Chile", "South Africa"],
+    "description": "Annular solar eclipse creates a 'ring of fire' effect. Visible from Antarctica, southern Argentina, southern Chile, and southern Africa."
+  },
+  {
+    "title": "Total Solar Eclipse",
+    "type": "Solar Eclipse",
+    "date": "2026-08-12",
+    "time": "17:47",
+    "duration": "2 minutes 18 seconds of totality",
+    "status": "Past",
+    "countries": ["Iceland", "Spain", "United States", "Canada", "Portugal", "France", "Germany", "United Kingdom"],
+    "description": "First total solar eclipse over mainland Europe since 1999. Path crosses Iceland and Spain. Partial eclipse visible in North America and Europe."
+  },
+  {
+    "title": "Perseid Meteor Shower Peak",
+    "type": "Perseid Meteor Shower",
+    "date": "2026-08-12",
+    "time": "22:00",
+    "duration": "Active July 17 - August 24",
+    "status": "Past",
+    "countries": ["Worldwide"],
+    "description": "One of the best meteor showers with 50+ meteors per hour at peak. Optimal viewing in 2026 due to new Moon providing dark skies."
+  },
+  {
+    "title": "Partial Lunar Eclipse",
+    "type": "Lunar Eclipse",
+    "date": "2026-08-28",
+    "time": "04:14",
+    "duration": "3 hours 18 minutes partial phase",
+    "status": "Past",
+    "countries": ["United States", "Canada", "Mexico", "Brazil", "United Kingdom", "France", "Germany", "Egypt", "South Africa"],
+    "description": "Partial lunar eclipse with Moon partially entering Earth's shadow. Visible from the Americas, Europe, and Africa."
+  },
+  {
+    "title": "Geminid Meteor Shower Peak",
+    "type": "Geminid Meteor Shower",
+    "date": "2026-12-13",
+    "time": "23:00",
+    "duration": "Active December 4-17",
+    "status": "Past",
+    "countries": ["Worldwide"],
+    "description": "One of the best and most reliable meteor showers with 30-50 meteors per hour at peak. Occurs during cold December nights."
+  },
+  {
+    "title": "Milky Way Core Peak Season",
+    "type": "Milky Way",
+    "date": "2026-07-16",
+    "time": "23:30",
+    "duration": "Visible May - October, peak July - August",
+    "status": "Past",
+    "countries": ["Worldwide", "Best from Southern Hemisphere"],
+    "description": "New moon conditions provide peak viewing for the Milky Way galactic core. Best viewed from dark sky locations, highest in the southern sky around midnight."
+  },
+  {
+    "title": "Comet Encke Perihelion",
+    "type": "Comet Passing",
+    "date": "2027-02-10",
+    "time": "",
+    "duration": "Visible December 2026 - March 2027",
+    "status": "Upcoming",
+    "countries": ["United States", "Canada", "United Kingdom", "France", "Germany", "Australia", "New Zealand", "Southern Hemisphere"],
+    "description": "Periodic comet 2P/Encke reaches perihelion (closest to Sun). May reach magnitude 5-6, visible with binoculars in evening sky from late December to February from both hemispheres."
+  },
+  {
+    "title": "Venus-Mercury Triple Conjunction",
+    "type": "Planetary Conjunction",
+    "date": "2027-08-11",
+    "time": "18:00",
+    "duration": "Three conjunctions: July 1, August 11, October 10",
+    "status": "Upcoming",
+    "countries": ["Worldwide"],
+    "description": "Rare triple conjunction of Venus and Mercury occurring three times over several months. Bright planetary pair visible to naked eye at dusk."
+  },
+  {
+    "title": "Seasonal Blue Moon",
+    "type": "Blue Moon",
+    "date": "2027-05-20",
+    "time": "10:00",
+    "duration": "Full moon phase",
+    "status": "Upcoming",
+    "countries": ["Worldwide"],
+    "description": "Third of four full moons in an astronomical season. A seasonal blue moon, rarer than monthly blue moons, defined by seasonal definitions."
+  },
+  {
+    "title": "Annular Solar Eclipse",
+    "type": "Solar Eclipse",
+    "date": "2027-02-06",
+    "time": "16:00",
+    "duration": "7 minutes 51 seconds of annularity",
+    "status": "Upcoming",
+    "countries": ["Chile", "Argentina", "South Africa", "Angola", "Zambia", "Tanzania"],
+    "description": "Annular solar eclipse with 'ring of fire' effect. Visible from southern Chile, Argentina, Atlantic Ocean, and southern Africa."
+  },
+  {
+    "title": "Total Solar Eclipse",
+    "type": "Solar Eclipse",
+    "date": "2027-08-02",
+    "time": "10:07",
+    "duration": "6 minutes 23 seconds of totality (longest of 21st century for land)",
+    "status": "Upcoming",
+    "countries": ["Morocco", "Spain", "Algeria", "Libya", "Egypt", "Saudi Arabia", "Yemen", "Somalia"],
+    "description": "The longest total solar eclipse visible from land in the 21st century. Path crosses Morocco, Spain, Algeria, Libya, Egypt, Saudi Arabia, Yemen, and Somalia."
+  },
+  {
+    "title": "Aurora Borealis Peak Season",
+    "type": "Aurora Borealis",
+    "date": "2026-09-23",
+    "time": "22:00",
+    "duration": "Active September - April, peak March & September",
+    "status": "Past",
+    "countries": ["Norway", "Iceland", "Finland", "Sweden", "Greenland", "Canada", "United States", "Russia"],
+    "description": "Solar Cycle 25 near peak brings strong geomagnetic activity. Autumn equinox enhances aurora visibility from Arctic regions (Norway, Iceland, Alaska). Best viewing around local midnight."
+  },
+  {
+    "title": "Partial Lunar Eclipse",
+    "type": "Lunar Eclipse",
+    "date": "2028-01-12",
+    "time": "04:14",
+    "duration": "56 minutes partial phase",
+    "status": "Upcoming",
+    "countries": ["United States", "Canada", "Mexico", "Brazil", "Argentina", "United Kingdom", "France", "Germany", "South Africa"],
+    "description": "Partial lunar eclipse with Moon partially entering Earth's shadow. Visible from the Americas, Europe, and Africa."
+  },
+  {
+    "title": "Annular Solar Eclipse",
+    "type": "Solar Eclipse",
+    "date": "2028-01-26",
+    "time": "15:08",
+    "duration": "10 minutes 27 seconds of annularity",
+    "status": "Upcoming",
+    "countries": ["Ecuador", "Peru", "Brazil", "Suriname", "Spain", "Portugal"],
+    "description": "Annular solar eclipse with 'ring of fire' effect lasting over 10 minutes. Visible from Ecuador, Peru, Brazil, Suriname, Spain, and Portugal."
+  },
+  {
+    "title": "Total Solar Eclipse",
+    "type": "Solar Eclipse",
+    "date": "2028-07-22",
+    "time": "02:56",
+    "duration": "5 minutes 10 seconds of totality",
+    "status": "Upcoming",
+    "countries": ["Australia", "New Zealand", "Indonesia", "Malaysia", "Singapore", "Philippines"],
+    "description": "Total solar eclipse with path crossing Australia and New Zealand. Visible from Southeast Asia, East Indies, and Australia."
+  },
+  {
+    "title": "Partial Lunar Eclipse",
+    "type": "Lunar Eclipse",
+    "date": "2028-07-06",
+    "time": "18:20",
+    "duration": "2 hours 22 minutes partial phase",
+    "status": "Upcoming",
+    "countries": ["United Kingdom", "France", "Germany", "Egypt", "South Africa", "India", "China", "Australia"],
+    "description": "Partial lunar eclipse visible from Europe, Africa, Asia, and Australia."
+  },
+  {
+    "title": "Total Lunar Eclipse",
+    "type": "Lunar Eclipse",
+    "date": "2028-12-31",
+    "time": "16:53",
+    "duration": "1 hour 11 minutes of totality",
+    "status": "Upcoming",
+    "countries": ["United Kingdom", "France", "Germany", "Egypt", "South Africa", "India", "China", "Australia", "New Zealand"],
+    "description": "Special New Year's Eve total lunar eclipse. Moon glows red during totality. Visible from Europe, Africa, Asia, Australia, and Pacific region."
+  },
+  {
+    "title": "Blue Moon (Monthly)",
+    "type": "Blue Moon",
+    "date": "2028-12-31",
+    "time": "16:53",
+    "duration": "Full moon phase",
+    "status": "Upcoming",
+    "countries": ["Worldwide"],
+    "description": "Second full moon within December calendar month, coinciding with total lunar eclipse. A rare 'Blood Blue Moon' event on New Year's Eve."
+  },
+  {
+    "title": "Partial Solar Eclipse",
+    "type": "Solar Eclipse",
+    "date": "2029-01-14",
+    "time": "17:13",
+    "duration": "Partial eclipse phase",
+    "status": "Upcoming",
+    "countries": ["United States", "Canada", "Mexico", "Central America"],
+    "description": "Partial solar eclipse with Moon covering up to 87% of Sun's disk. Visible from North America and Central America."
+  },
+  {
+    "title": "Total Lunar Eclipse",
+    "type": "Lunar Eclipse",
+    "date": "2029-06-26",
+    "time": "03:23",
+    "duration": "1 hour 42 minutes of totality",
+    "status": "Upcoming",
+    "countries": ["United States", "Canada", "Mexico", "Brazil", "Argentina", "United Kingdom", "France", "Spain", "Egypt", "Middle East"],
+    "description": "Near-worldwide total lunar eclipse visible from the Americas, Europe, Africa, and Middle East. One of the year's most observed eclipse events."
+  },
+  {
+    "title": "Total Lunar Eclipse",
+    "type": "Lunar Eclipse",
+    "date": "2029-12-20",
+    "time": "22:43",
+    "duration": "54 minutes of totality",
+    "status": "Upcoming",
+    "countries": ["United States", "Canada", "Brazil", "Argentina", "United Kingdom", "France", "Germany", "Egypt", "South Africa", "India", "China", "Japan"],
+    "description": "Total lunar eclipse visible from the Americas, Europe, Africa, and Asia. Moon takes on striking reddish hue during totality."
+  },
+  {
+    "title": "Annular Solar Eclipse",
+    "type": "Solar Eclipse",
+    "date": "2030-06-01",
+    "time": "06:29",
+    "duration": "5 minutes 21 seconds of annularity",
+    "status": "Upcoming",
+    "countries": ["Spain", "Portugal", "France", "Italy", "Turkey", "Russia", "China", "Japan"],
+    "description": "Annular solar eclipse creates 'ring of fire' effect. Visible from southern Europe, central Africa, Turkey, Russia, northern China, and Japan."
+  },
+  {
+    "title": "Partial Lunar Eclipse",
+    "type": "Lunar Eclipse",
+    "date": "2030-06-15",
+    "time": "18:34",
+    "duration": "2 hours 24 minutes partial phase",
+    "status": "Upcoming",
+    "countries": ["United Kingdom", "France", "Germany", "Egypt", "South Africa", "India", "China", "Australia"],
+    "description": "Partial lunar eclipse with Moon partially entering Earth's shadow. Visible from Europe, Africa, Asia, and Australia."
+  },
+  {
+    "title": "Total Solar Eclipse",
+    "type": "Solar Eclipse",
+    "date": "2030-11-25",
+    "time": "06:51",
+    "duration": "3 minutes 44 seconds of totality",
+    "status": "Upcoming",
+    "countries": ["Botswana", "South Africa", "Australia", "New Zealand"],
+    "description": "Total solar eclipse with path crossing Botswana, South Africa, and Australia. Visible from southern Africa, southern Indian Ocean, East Indies, and Australia."
+  }
+]

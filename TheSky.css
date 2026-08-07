@@ -1,0 +1,352 @@
+body{
+    margin: 0%;
+    width: 100%;
+    min-height: 100dvh;
+    background:
+        linear-gradient(rgba(255,255,255,0.15), rgba(255,255,255,0.9)),
+        url("/imgs/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+header{
+    height: 60px;
+    width: auto;
+    padding: 10px;
+    background-color: #0D0E25;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.title{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.title h2, h5{
+    color: whitesmoke;
+    margin: 0px 20px;
+    padding-top: 10px;
+}
+.title h5{
+    padding: 0%;
+    padding-bottom: 10px;
+}
+.shapes{
+    margin: 10px 15px;
+    height: 45px;
+    width: 70%;
+    background-color: #0D0E25;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.shapes #p1, #p2, #p3, #p4 , #p5{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    animation: planets 2.5s infinite alternate;
+}
+.shapes #s1, #s2, #s3, #s4, #s5, #s6, #s7, #s8, #s9, #s10{
+    background-color: rgb(248, 250, 252);
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    animation: stars 2s infinite alternate;
+}
+.shapes #p1{
+    background-color: antiquewhite;
+}
+.shapes #p2{
+    background-color: rgb(215, 236, 250);
+}
+.shapes #p3{
+    background-color: rgb(250, 215, 222);
+}
+.shapes #p4{
+    background-color: rgb(215, 250, 226);
+}
+.shapes #p5{
+    background-color: rgb(250, 215, 236);
+} 
+.shapes #s7, #s6, #s8, #s9, #s10{
+    align-self: flex-start;
+} 
+.shapes #s5, #s4, #s3, #s2, #s1{
+    align-self: flex-end;
+} 
+
+@keyframes stars {
+    from {
+        opacity: 0.3;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes planets{
+    from{
+        transform: translate(4px,4px);
+    }
+    to{
+        transform: translate(-4px,-4px);
+    }
+}
+
+
+.today, .comingSoon, .alreadyHappened{
+    margin: 30px;
+}
+.todayTitle h4, .comingSoonTitle h4, .alreadyHappenedTitle h4{
+    margin: 0px;
+    font-size: x-large;
+    font-weight: bolder;
+    color: #0D0E25;
+}
+.todayTitle p, .comingSoonTitle p, .alreadyHappenedTitle p{
+    margin: 0px;
+    color: rgba(6, 8, 63, 0.428);
+    font-weight: bold;
+    font-size: larger;
+}
+.todayCards, .comingSoonCards, .alreadyHappenedCards{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    gap: 10px;
+    overflow: auto;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.todayCards::-webkit-scrollbar, .comingSoonCards::-webkit-scrollbar, .alreadyHappenedCards::-webkit-scrollbar{
+    height: 10px;
+}
+.todayCards::-webkit-scrollbar-track, .comingSoonCards::-webkit-scrollbar-track, .alreadyHappenedCards::-webkit-scrollbar-track{
+    background-color: #0d0e252d;
+    border-radius: 5px;
+}
+.todayCards::-webkit-scrollbar-thumb, .comingSoonCards::-webkit-scrollbar-thumb, .alreadyHappenedCards::-webkit-scrollbar-thumb{
+    background-color: #0D0E25;
+    border-radius: 5px;
+}
+
+.todayCards #card1, .todayCards #card2, .todayCards #card3, .todayCards #card4, .todayCards #card5, .todayCards #card6, .todayCards #card7, .todayCards #card7, .todayCards #card8, .todayCards #card9, .todayCards #card10, .comingSoonCards #card1, .comingSoonCards #card2, .comingSoonCards #card3, .comingSoonCards #card4, .comingSoonCards #card5, .comingSoonCards #card6, .comingSoonCards #card7, .comingSoonCards #card8, .comingSoonCards #card9, .comingSoonCards #card10, .comingSoonCards #card11, .comingSoonCards #card12, .comingSoonCards #card13, .comingSoonCards #card14, .comingSoonCards #card15, .comingSoonCards #card16, .comingSoonCards #card17, .comingSoonCards #card18, .comingSoonCards #card19, .comingSoonCards #card20 , .alreadyHappenedCards #card1, .alreadyHappenedCards #card2, .alreadyHappenedCards #card3, .alreadyHappenedCards #card4, .alreadyHappenedCards #card5, .alreadyHappenedCards #card6, .alreadyHappenedCards #card7, .alreadyHappenedCards #card8, .alreadyHappenedCards #card9, .alreadyHappenedCards #card10{
+    height: 220px;
+    padding: 0px 1px;
+    padding-bottom: px;
+    min-width: 250px;
+    border-color: #0D0E25;
+    border-radius: 10px;
+    background-color: #0D0E25;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e1e2ff;
+    transition-duration: 0.2s;
+    overflow: hidden;
+    transition: 0.1s;
+    display: none;
+}
+.todayCards #card1:hover, .todayCards #card2:hover, .todayCards #card3:hover, .todayCards #card4:hover, .todayCards #card5:hover, .todayCards #card6:hover, .todayCards #card7:hover, .todayCards #card8:hover, .todayCards #card9:hover, .todayCards #card10:hover, .comingSoonCards #card1:hover, .comingSoonCards #card2:hover, .comingSoonCards #card3:hover, .comingSoonCards #card4:hover, .comingSoonCards #card5:hover, .comingSoonCards #card6:hover, .comingSoonCards #card7:hover, .comingSoonCards #card8:hover, .comingSoonCards #card9:hover, .comingSoonCards #card10:hover, .comingSoonCards #card11:hover, .comingSoonCards #card12:hover, .comingSoonCards #card13:hover, .comingSoonCards #card14:hover, .comingSoonCards #card105:hover, .comingSoonCards #card15:hover, .comingSoonCards #card16:hover, .comingSoonCards #card17:hover, .comingSoonCards #card18:hover, .comingSoonCards #card19:hover, .comingSoonCards #card20:hover, .alreadyHappenedCards #card1:hover, .alreadyHappenedCards #card2:hover, .alreadyHappenedCards #card3:hover, .alreadyHappenedCards #card4:hover, .alreadyHappenedCards #card5:hover, .alreadyHappenedCards #card6:hover, .alreadyHappenedCards #card7:hover, .alreadyHappenedCards #card8:hover, .alreadyHappenedCards #card9:hover, .alreadyHappenedCards #card10:hover{
+    box-shadow: 2px 4px 5px 1px #9a9bbb;
+    height: fit-content;
+    width: 100%;
+    padding-bottom: 5px;
+    zoom: 110%;
+}
+
+.todayCards img, .comingSoonCards img, .alreadyHappenedCards img{
+    width: 100%;
+    height: 65%;
+    border-radius: 10px;
+}
+.todayCards h4, .comingSoonCards h4, .alreadyHappenedCards h4{
+    color: #c5c6f0;
+    margin: 1px 8px 4px 8px;
+    overflow-wrap: break-word;
+    font-size: 13px;        
+    font-family: monospace;
+    font-weight: 100;
+    text-align: center;
+}
+.todayCards h6, .comingSoonCards h6, .alreadyHappenedCards h6{
+    color: #6c6d90;
+    overflow-wrap: break-word;
+    margin: 3px 8px 0px 8px;
+    font-size: 10px;
+    font-family: cursive;
+    text-align: justify;
+}
+
+
+.search{
+    margin: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.allSearch{
+    width: 1000px;
+    position: relative;
+}
+.searchCountryInput{
+    height: 33px;
+    width: 100%;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: #e1e2ff;
+    padding: 0px 75px 0px 15px;
+    box-sizing: border-box;
+}
+.searchCountryInput::placeholder{
+    color: #8a8cb5;
+}
+.searchButton{
+    height: 33px;
+    border-radius: 10px;
+    border-width: 0px;
+    width: 60px;
+    background-color: #0D0E25;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+.searchButton:hover{    
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e1e2ff;
+    background-color: #4D5268;
+}
+.material-symbols-outlined{
+    color: #e1e2ff;
+}
+
+.pic, .homePageButton{
+    margin-right: 15px;
+    width: 300px;
+    border-width: 0px;
+    background-color: #0D0E25;
+    color: #e1e2ff;
+    border-radius: 10px; 
+}
+.pic:hover, .homePageButton:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e1e2ff;
+    background-color: #4D5268;
+}
+
+.home{
+    display: none;
+}
+
+
+
+.countryNotFound{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: none;
+}
+#numberNotFound{
+    color: #0D0E25;
+    text-align: center;
+    align-self: center;
+    font-size: 50mm;
+    margin-top: px; 
+    margin-bottom: 0px;
+ }
+.textNotFound{
+    color: #0D0E25;
+    /* margin-top: -80px; */
+    text-align: center;
+    align-self: center;
+}
+.textNotFound h3{
+    color: #0D0E25;
+    margin: -5px 30px 0px 30px;
+    
+}
+
+
+
+.searchCountryPage{        
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: bloxk;
+}
+.textSearchCountry{
+    color: #0D0E25;
+    text-align: center;
+    align-self: center;
+}
+.textSearchCountry h2{
+    margin: 200px 30px 0px 30px;
+    font-size: 12mm;
+}
+.textSearchCountry p{
+    margin: 20px 55px 0px 55px;
+    font-size: 6mm;
+}
+.browseAll, .browseAll2{
+    margin-top: 50px;
+    width: 400px;
+    border-width: 0px;
+    background-color: #0D0E25;
+    color: #e1e2ff;
+    border-radius: 10px; 
+    padding: 10px;
+}
+.browseAll:hover, .browseAll2:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e1e2ff;
+    background-color: #474863;
+}
+
+
+
+.picOfTheDay{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 40px 30px 0px 30px;
+    text-align: center;
+    align-items: center;
+    display: none;
+}
+#titlePicOfTheDay{
+    color: #0D0E25;
+    margin-bottom: 20px;
+}
+#imgPicOfTheDay{
+    width: 400px;  
+    display: none;
+}
+#vidPicOfTheDay{
+    display: none;
+}
+
+#nasaTitle{
+    color: #171943;
+    margin: 20px 30px 0px 30px;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: cursive;
+}
+#nasaExplanation{
+    color: rgb(54, 56, 125);
+    margin: 10px 30px 0px 30px;
+    text-align: justify;
+    /* overflow-wrap: break-word; */
+    font-family: cursive;
+}
+#nasaDate{
+    color: #171943;
+    margin: 40px 30px 20px 30px;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-size: 4.5mm;
+}
