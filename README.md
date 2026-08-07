@@ -12,7 +12,6 @@ Additionally, the website allows users to search for a specific country to view 
 * Organize events by date.
 * Search for a country.
 * View NASA's Astronomy Picture of the Day (APOD).
-* Responsive design for different screen sizes.
 * Clean and modern user interface.
 
 **Technologies Used**
